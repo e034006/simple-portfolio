@@ -7,6 +7,10 @@ body {
   color: white; /* makes all the text in the body white */
 }
 
+h1 {
+    margin: 2rem 2rem;
+}
+
 .container {
   margin: 2rem;
 }
