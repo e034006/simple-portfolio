@@ -1,0 +1,44 @@
+/* ["0c111c","d33f49","ffc15e","3f88c5","fbfffe"] */
+
+body {
+  max-width: 1500px;
+  margin: auto; /* centers everything in the body */
+  background: #0c111c;
+  color: white; /* makes all the text in the body white */
+}
+
+.container {
+  margin: 2rem;
+}
+
+.grid {
+  display: grid; /* puts everything in a grid */
+  grid-gap: 3rem; /* adds some space between the items */
+  align-items: center;
+
+  /* The statement below will make as many columns as will fit
+     without going over 300pixels. If it runs out of room, the 
+     objects will go to the next row. Great for making things
+     look good on phones automatically without media queries */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.project-card {
+  background: #314672;
+  padding: 1.5rem;
+  border-radius: 5%; /* Makes the corners rounded */
+}
+
+img {
+  width: 100%;
+  border-radius: 5%; /* Makes the corners rounded */
+}
+
+.card-title {
+  font-size: 2rem;
+  margin: 1rem 0rem;
+}
+
+.card-description {
+  font-size: 1.1rem;
+}
