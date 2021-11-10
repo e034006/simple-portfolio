@@ -8,7 +8,7 @@ body {
 }
 
 h1 {
-    margin: 2rem 2rem;
+  margin: 2rem 2rem;
 }
 
 .container {
@@ -29,20 +29,22 @@ h1 {
 
 .project-card {
   background: #314672;
-  padding: 1.5rem;
-  border-radius: 5%; /* Makes the corners rounded */
+  border-radius: 15px; /* Makes the corners rounded */
 }
 
 img {
-  width: 100%;
-  border-radius: 5%; /* Makes the corners rounded */
+  max-width: 100%;
+  object-fit: cover;
+  border-radius: 15px 15px 0px 0px; /* Makes the corners rounded */
 }
 
 .card-title {
   font-size: 2rem;
   margin: 1rem 0rem;
+  padding: 0rem 1.5rem;
 }
 
 .card-description {
   font-size: 1.1rem;
+  padding: 0rem 1.5rem;
 }
